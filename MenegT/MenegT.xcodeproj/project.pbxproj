@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC01DE002045A33F004285CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01DDFF2045A33F004285CE /* AppDelegate.swift */; };
+		AC01DE022045A33F004285CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01DE012045A33F004285CE /* ViewController.swift */; };
+		AC01DE052045A33F004285CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC01DE032045A33F004285CE /* Main.storyboard */; };
+		AC01DE072045A33F004285CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC01DE062045A33F004285CE /* Assets.xcassets */; };
+		AC01DE0A2045A33F004285CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC01DE082045A33F004285CE /* LaunchScreen.storyboard */; };
+		AC01DE152045A33F004285CE /* MenegTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01DE142045A33F004285CE /* MenegTTests.swift */; };
+		AC01DE202045A33F004285CE /* MenegTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01DE1F2045A33F004285CE /* MenegTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC01DE112045A33F004285CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC01DDF42045A33F004285CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC01DDFB2045A33F004285CE;
+			remoteInfo = MenegT;
+		};
+		AC01DE1C2045A33F004285CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC01DDF42045A33F004285CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC01DDFB2045A33F004285CE;
+			remoteInfo = MenegT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC01DDFC2045A33F004285CE /* MenegT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenegT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC01DDFF2045A33F004285CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC01DE012045A33F004285CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC01DE042045A33F004285CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC01DE062045A33F004285CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC01DE092045A33F004285CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC01DE0B2045A33F004285CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC01DE102045A33F004285CE /* MenegTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenegTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC01DE142045A33F004285CE /* MenegTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenegTTests.swift; sourceTree = "<group>"; };
+		AC01DE162045A33F004285CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC01DE1B2045A33F004285CE /* MenegTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenegTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC01DE1F2045A33F004285CE /* MenegTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenegTUITests.swift; sourceTree = "<group>"; };
+		AC01DE212045A33F004285CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC01DDF92045A33F004285CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC01DE0D2045A33F004285CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC01DE182045A33F004285CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC01DDF32045A33F004285CE = {
+			isa = PBXGroup;
+			children = (
+				AC01DDFE2045A33F004285CE /* MenegT */,
+				AC01DE132045A33F004285CE /* MenegTTests */,
+				AC01DE1E2045A33F004285CE /* MenegTUITests */,
+				AC01DDFD2045A33F004285CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC01DDFD2045A33F004285CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC01DDFC2045A33F004285CE /* MenegT.app */,
+				AC01DE102045A33F004285CE /* MenegTTests.xctest */,
+				AC01DE1B2045A33F004285CE /* MenegTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC01DDFE2045A33F004285CE /* MenegT */ = {
+			isa = PBXGroup;
+			children = (
+				AC01DDFF2045A33F004285CE /* AppDelegate.swift */,
+				AC01DE012045A33F004285CE /* ViewController.swift */,
+				AC01DE032045A33F004285CE /* Main.storyboard */,
+				AC01DE062045A33F004285CE /* Assets.xcassets */,
+				AC01DE082045A33F004285CE /* LaunchScreen.storyboard */,
+				AC01DE0B2045A33F004285CE /* Info.plist */,
+			);
+			path = MenegT;
+			sourceTree = "<group>";
+		};
+		AC01DE132045A33F004285CE /* MenegTTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC01DE142045A33F004285CE /* MenegTTests.swift */,
+				AC01DE162045A33F004285CE /* Info.plist */,
+			);
+			path = MenegTTests;
+			sourceTree = "<group>";
+		};
+		AC01DE1E2045A33F004285CE /* MenegTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC01DE1F2045A33F004285CE /* MenegTUITests.swift */,
+				AC01DE212045A33F004285CE /* Info.plist */,
+			);
+			path = MenegTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC01DDFB2045A33F004285CE /* MenegT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC01DE242045A33F004285CE /* Build configuration list for PBXNativeTarget "MenegT" */;
+			buildPhases = (
+				AC01DDF82045A33F004285CE /* Sources */,
+				AC01DDF92045A33F004285CE /* Frameworks */,
+				AC01DDFA2045A33F004285CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenegT;
+			productName = MenegT;
+			productReference = AC01DDFC2045A33F004285CE /* MenegT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC01DE0F2045A33F004285CE /* MenegTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC01DE272045A33F004285CE /* Build configuration list for PBXNativeTarget "MenegTTests" */;
+			buildPhases = (
+				AC01DE0C2045A33F004285CE /* Sources */,
+				AC01DE0D2045A33F004285CE /* Frameworks */,
+				AC01DE0E2045A33F004285CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC01DE122045A33F004285CE /* PBXTargetDependency */,
+			);
+			name = MenegTTests;
+			productName = MenegTTests;
+			productReference = AC01DE102045A33F004285CE /* MenegTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC01DE1A2045A33F004285CE /* MenegTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC01DE2A2045A33F004285CE /* Build configuration list for PBXNativeTarget "MenegTUITests" */;
+			buildPhases = (
+				AC01DE172045A33F004285CE /* Sources */,
+				AC01DE182045A33F004285CE /* Frameworks */,
+				AC01DE192045A33F004285CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC01DE1D2045A33F004285CE /* PBXTargetDependency */,
+			);
+			name = MenegTUITests;
+			productName = MenegTUITests;
+			productReference = AC01DE1B2045A33F004285CE /* MenegTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC01DDF42045A33F004285CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Huji;
+				TargetAttributes = {
+					AC01DDFB2045A33F004285CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8PGUG42WAZ;
+						ProvisioningStyle = Automatic;
+					};
+					AC01DE0F2045A33F004285CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8PGUG42WAZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC01DDFB2045A33F004285CE;
+					};
+					AC01DE1A2045A33F004285CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8PGUG42WAZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC01DDFB2045A33F004285CE;
+					};
+				};
+			};
+			buildConfigurationList = AC01DDF72045A33F004285CE /* Build configuration list for PBXProject "MenegT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC01DDF32045A33F004285CE;
+			productRefGroup = AC01DDFD2045A33F004285CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC01DDFB2045A33F004285CE /* MenegT */,
+				AC01DE0F2045A33F004285CE /* MenegTTests */,
+				AC01DE1A2045A33F004285CE /* MenegTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC01DDFA2045A33F004285CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC01DE0A2045A33F004285CE /* LaunchScreen.storyboard in Resources */,
+				AC01DE072045A33F004285CE /* Assets.xcassets in Resources */,
+				AC01DE052045A33F004285CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC01DE0E2045A33F004285CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC01DE192045A33F004285CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC01DDF82045A33F004285CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC01DE022045A33F004285CE /* ViewController.swift in Sources */,
+				AC01DE002045A33F004285CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC01DE0C2045A33F004285CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC01DE152045A33F004285CE /* MenegTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC01DE172045A33F004285CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC01DE202045A33F004285CE /* MenegTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC01DE122045A33F004285CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC01DDFB2045A33F004285CE /* MenegT */;
+			targetProxy = AC01DE112045A33F004285CE /* PBXContainerItemProxy */;
+		};
+		AC01DE1D2045A33F004285CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC01DDFB2045A33F004285CE /* MenegT */;
+			targetProxy = AC01DE1C2045A33F004285CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC01DE032045A33F004285CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC01DE042045A33F004285CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC01DE082045A33F004285CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC01DE092045A33F004285CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC01DE222045A33F004285CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC01DE232045A33F004285CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC01DE252045A33F004285CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8PGUG42WAZ;
+				INFOPLIST_FILE = MenegT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huji.MenegT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC01DE262045A33F004285CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8PGUG42WAZ;
+				INFOPLIST_FILE = MenegT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huji.MenegT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC01DE282045A33F004285CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8PGUG42WAZ;
+				INFOPLIST_FILE = MenegTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huji.MenegTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenegT.app/MenegT";
+			};
+			name = Debug;
+		};
+		AC01DE292045A33F004285CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8PGUG42WAZ;
+				INFOPLIST_FILE = MenegTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huji.MenegTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenegT.app/MenegT";
+			};
+			name = Release;
+		};
+		AC01DE2B2045A33F004285CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8PGUG42WAZ;
+				INFOPLIST_FILE = MenegTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huji.MenegTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MenegT;
+			};
+			name = Debug;
+		};
+		AC01DE2C2045A33F004285CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8PGUG42WAZ;
+				INFOPLIST_FILE = MenegTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huji.MenegTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MenegT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC01DDF72045A33F004285CE /* Build configuration list for PBXProject "MenegT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC01DE222045A33F004285CE /* Debug */,
+				AC01DE232045A33F004285CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC01DE242045A33F004285CE /* Build configuration list for PBXNativeTarget "MenegT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC01DE252045A33F004285CE /* Debug */,
+				AC01DE262045A33F004285CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC01DE272045A33F004285CE /* Build configuration list for PBXNativeTarget "MenegTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC01DE282045A33F004285CE /* Debug */,
+				AC01DE292045A33F004285CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC01DE2A2045A33F004285CE /* Build configuration list for PBXNativeTarget "MenegTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC01DE2B2045A33F004285CE /* Debug */,
+				AC01DE2C2045A33F004285CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC01DDF42045A33F004285CE /* Project object */;
+}
